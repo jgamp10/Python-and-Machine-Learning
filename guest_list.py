@@ -1,0 +1,23 @@
+guest = []
+guest.append('sujan')
+guest.append('safal')
+guest.append('diepesh')
+print(guest)
+
+print(guest[0] + " and I met first time in UKG")
+print(guest[1] + " and I met first time in LKG")
+print(guest[2] + " and I met first time in same class")
+guest.sort(reverse=True)
+print(guest)
+guest.sort()
+print(guest)
+print("Here is the original list of the guests\n")
+print(guest)
+print("\n")
+print("\nHere is the sorted list: ")
+print(sorted(guest))
+print("\nHere is the original list: ")
+print(guest)
+guest.reverse()
+print(guest)
+
