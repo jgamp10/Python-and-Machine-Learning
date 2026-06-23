@@ -19,7 +19,7 @@ for friend_pizza in friend_pizzas:
     print(friend_pizza)
     print ("\n")
 
-requested_toppings = ['mushrooms' , 'extra cheese']
+requested_toppings = ['mushrooms' , 'green peppers','extra cheese']
 
 if 'mushrooms' in requested_toppings:
     print("Adding mushrooms.")
@@ -28,3 +28,11 @@ if 'pepperoni' not in requested_toppings:
 if 'extra cheese' in requested_toppings:
     print("Adding extra cheese.")
 print("\n Finished making your pizza.")
+
+for requested_topping in requested_toppings:
+    if requested_topping == 'green peppers':
+        print("\n Sorry we are out of green peppers right now.")
+    else:
+        print("Adding " + requested_topping + " .")
+
+print("\n Finished making your pizza")
